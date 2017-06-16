@@ -1,15 +1,14 @@
 //
-//  api_lib_swiftTests.swift
-//  api.lib.swiftTests
+//  Tests.swift
+//  Tests
 //
 //  Created by Juraj Hilje on 16/06/2017.
 //  Copyright © 2017 Rentlio. All rights reserved.
 //
 
 import XCTest
-@testable import api_lib_swift
 
-class api_lib_swiftTests: XCTestCase {
+class Tests: XCTestCase {
     
     override func setUp() {
         super.setUp()
