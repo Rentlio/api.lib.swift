@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		820898EE1EF3DECE00B51490 /* RentlioApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820898ED1EF3DECE00B51490 /* RentlioApi.swift */; };
+		820898EF1EF3DECE00B51490 /* RentlioApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820898ED1EF3DECE00B51490 /* RentlioApi.swift */; };
 		827D62CE1EF3DA4700700DC2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827D62CD1EF3DA4700700DC2 /* AppDelegate.swift */; };
 		827D62D01EF3DA4700700DC2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827D62CF1EF3DA4700700DC2 /* ViewController.swift */; };
 		827D62D31EF3DA4800700DC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 827D62D11EF3DA4800700DC2 /* Main.storyboard */; };
@@ -26,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		820898ED1EF3DECE00B51490 /* RentlioApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RentlioApi.swift; sourceTree = "<group>"; };
 		827D62CA1EF3DA4700700DC2 /* api.lib.swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = api.lib.swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		827D62CD1EF3DA4700700DC2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		827D62CF1EF3DA4700700DC2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,10 +59,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		820898EC1EF3DECE00B51490 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				820898ED1EF3DECE00B51490 /* RentlioApi.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
 		827D62C11EF3DA4700700DC2 = {
 			isa = PBXGroup;
 			children = (
 				827D62CC1EF3DA4700700DC2 /* api.lib.swift */,
+				820898EC1EF3DECE00B51490 /* Source */,
 				827D62FA1EF3DC1D00700DC2 /* Tests */,
 				827D62CB1EF3DA4700700DC2 /* Products */,
 			);
@@ -201,6 +213,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				820898EE1EF3DECE00B51490 /* RentlioApi.swift in Sources */,
 				827D62D01EF3DA4700700DC2 /* ViewController.swift in Sources */,
 				827D62CE1EF3DA4700700DC2 /* AppDelegate.swift in Sources */,
 			);
@@ -210,6 +223,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				820898EF1EF3DECE00B51490 /* RentlioApi.swift in Sources */,
 				827D62FC1EF3DC1D00700DC2 /* Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -410,6 +424,7 @@
 				827D62E91EF3DA4800700DC2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		827D63001EF3DC1D00700DC2 /* Build configuration list for PBXNativeTarget "Tests" */ = {
 			isa = XCConfigurationList;
@@ -418,6 +433,7 @@
 				827D63021EF3DC1D00700DC2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
