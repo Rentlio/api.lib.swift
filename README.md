@@ -26,9 +26,8 @@ end
 ```
 
 ## Example Project
-You'll need to install [CocoaPods](http://cocoapods.org) first.
 
-Grab the source code, and then install dependencies.
+Grab the source code
 ```bash
 $ git clone https://github.com/Rentlio/api.lib.swift.git api.lib.swift && cd $_
 $ open api.lib.swift.xcworkspace
