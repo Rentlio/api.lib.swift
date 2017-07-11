@@ -9,6 +9,8 @@ JSON is returned by all API responses, including errors. Also JSON is used in re
 
 Please **read official docs** before consuming this lib [https://docs.rentl.io](https://docs.rentl.io)
 
+**IMPORTANT NOTE**: `apikey` is private key that allows access to execute all methods available in Rentlio public API. Anyone with your API key will have permission to read, create, update and delete data from your private Rentlio account.
+
 ## Dependencies
 
 - [Just](https://github.com/JustHTTP/Just)
