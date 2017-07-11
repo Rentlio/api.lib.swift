@@ -1,6 +1,0 @@
-framework module Pods_api_lib_swift {
-  umbrella header "Pods-api.lib.swift-umbrella.h"
-
-  export *
-  module * { export * }
-}
