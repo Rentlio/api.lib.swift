@@ -30,6 +30,7 @@ end
 Grab the source code
 ```bash
 $ git clone https://github.com/Rentlio/api.lib.swift.git api.lib.swift && cd $_
+$ pod install
 $ open api.lib.swift.xcworkspace
 ```
 
